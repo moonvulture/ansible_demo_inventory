@@ -1,0 +1,17 @@
+--- 
+no_switchport_interfaces:
+  - GigabitEthernet0/0 
+  - GigabitEthernet0/1 
+  - GigabitEthernet0/2 
+
+layer3_interfaces:
+  - GigabitEthernet0/0 
+  - GigabitEthernet0/1 
+  - GigabitEthernet0/2 
+  - Vlan2270
+
+ospf_1569_interfaces:
+  - GigabitEthernet0/1 
+  - GigabitEthernet0/2 
+  - Vlan2000
+  
